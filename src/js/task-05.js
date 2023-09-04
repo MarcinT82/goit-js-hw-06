@@ -5,6 +5,6 @@ nameInput.addEventListener("input", (event) => {
   nameOutput.textContent = event.currentTarget.value;
 
   if (event.currentTarget.value === "") {
-    output.textContent = "Anonymous";
+    nameOutput.textContent = "Anonymous";
   }
 });
